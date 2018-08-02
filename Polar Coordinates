@@ -1,0 +1,6 @@
+import cmath as math
+z=input().split('+')
+x=int(z[0])
+y=int(z[1].rstrip('j'))
+print(abs(complex(x,y)))
+print(math.phase(complex(x,y)))
